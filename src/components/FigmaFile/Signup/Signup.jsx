@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Signup.css";
 import Image from "./Image.png";
-import Image0 from "./Group 1.png";
 
 function SignUpForm() {
   const [email, setEmail] = useState("");
@@ -89,11 +88,7 @@ function SignUpForm() {
             <br />
             <div className="form-group">
               <label className="la1">Password</label>
-              <label className="la0">
-                <img className="hideimg" src={Image0} alt="" />
-                {"    "}
-                Hide
-              </label>
+
               <input
                 className="in"
                 type="password"
